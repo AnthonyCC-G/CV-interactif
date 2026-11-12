@@ -35,18 +35,18 @@ const SOFT = [
 
 const PROJECTS = [
   {
-    title: "Projet fullstack Angular – Java Spring",
-    badge: "Projet à venir",
-    summary: "Projet évalué dans le cadre de la formation CDA à l'ENI.",
-    text: "Analyse et conception, développement d'un frontend Angular connecté à un backend Java Spring reposant sur une base de données relationnelle, selon une architecture RESTful conforme aux standards professionnels. Le sujet sera précisé avec le calendrier de la formation.",
-    tags: ["Angular", "Java Spring", "RESTful"],
-  },
-  {
     title: "MY-ANKODE",
     summary: "Symfony 7 · architecture hybride",
     text: "Application complète avec interface Kanban, flux RSS, gestion de snippets et suivi de compétences. Architecture PostgreSQL et MongoDB, authentification sécurisée (bcrypt, CSRF, XSS), 135 tests PHPUnit dont 52 de sécurité, déploiement Docker.",
     tags: ["Symfony 7", "PHP 8.3", "PostgreSQL", "MongoDB", "Docker", "PHPUnit", "Kanban", "RSS"],
     url: "https://github.com/AnthonyCC-G/my-ankode",
+  },
+  {
+    title: "Projet fullstack Angular – Java Spring",
+    badge: "Projet à venir",
+    summary: "Projet évalué dans le cadre de la formation CDA à l'ENI.",
+    text: "Analyse et conception, développement d'un frontend Angular connecté à un backend Java Spring reposant sur une base de données relationnelle, selon une architecture RESTful conforme aux standards professionnels. Le sujet sera précisé avec le calendrier de la formation.",
+    tags: ["Angular", "Java Spring", "RESTful"],
   },
   { empty: true, message: "Peut-être un projet avec vous" },
 ];
